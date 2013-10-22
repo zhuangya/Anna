@@ -26,6 +26,7 @@
 		84DDDAC61816D718009F0227 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DDDA9E1816D718009F0227 /* CoreData.framework */; };
 		84DDDACE1816D718009F0227 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DDDACC1816D718009F0227 /* InfoPlist.strings */; };
 		84DDDAD01816D718009F0227 /* AnnaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDDACF1816D718009F0227 /* AnnaTests.m */; };
+		84DDDADA1816D7BC009F0227 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 84DDDAD91816D7BC009F0227 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		84DDDACB1816D718009F0227 /* AnnaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnnaTests-Info.plist"; sourceTree = "<group>"; };
 		84DDDACD1816D718009F0227 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84DDDACF1816D718009F0227 /* AnnaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnaTests.m; sourceTree = "<group>"; };
+		84DDDAD91816D7BC009F0227 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		84DDDA8C1816D718009F0227 = {
 			isa = PBXGroup;
 			children = (
+				84DDDAD91816D7BC009F0227 /* README.md */,
 				84DDDAA01816D718009F0227 /* Anna */,
 				84DDDAC91816D718009F0227 /* AnnaTests */,
 				84DDDA971816D718009F0227 /* Frameworks */,
@@ -247,6 +250,7 @@
 			files = (
 				84DDDAB11816D718009F0227 /* Main_iPad.storyboard in Resources */,
 				84DDDABC1816D718009F0227 /* Images.xcassets in Resources */,
+				84DDDADA1816D7BC009F0227 /* README.md in Resources */,
 				84DDDAAE1816D718009F0227 /* Main_iPhone.storyboard in Resources */,
 				84DDDAA51816D718009F0227 /* InfoPlist.strings in Resources */,
 			);
