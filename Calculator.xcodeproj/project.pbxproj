@@ -21,6 +21,7 @@
 		84F7FB201819033D0038B28C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F7FB021819033D0038B28C /* UIKit.framework */; };
 		84F7FB281819033D0038B28C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84F7FB261819033D0038B28C /* InfoPlist.strings */; };
 		84F7FB2A1819033D0038B28C /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7FB291819033D0038B28C /* CalculatorTests.m */; };
+		84F7FB3518190CC70038B28C /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7FB3418190CC70038B28C /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84F7FB251819033D0038B28C /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		84F7FB271819033D0038B28C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84F7FB291819033D0038B28C /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		84F7FB3318190CC70038B28C /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = SOURCE_ROOT; };
+		84F7FB3418190CC70038B28C /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		84F7FB041819033D0038B28C /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				84F7FB3318190CC70038B28C /* CalculatorBrain.h */,
+				84F7FB3418190CC70038B28C /* CalculatorBrain.m */,
 				84F7FB0D1819033D0038B28C /* CalculatorAppDelegate.h */,
 				84F7FB0E1819033D0038B28C /* CalculatorAppDelegate.m */,
 				84F7FB101819033D0038B28C /* Main.storyboard */,
@@ -252,6 +257,7 @@
 			files = (
 				84F7FB0F1819033D0038B28C /* CalculatorAppDelegate.m in Sources */,
 				84F7FB0B1819033D0038B28C /* main.m in Sources */,
+				84F7FB3518190CC70038B28C /* CalculatorBrain.m in Sources */,
 				84F7FB151819033D0038B28C /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
