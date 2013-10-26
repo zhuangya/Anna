@@ -13,4 +13,12 @@
 - (void)pushOperand:(double)operand;
 - (double)performOperation:(NSString *)operation;
 
+@property (readonly) id program;  // show how to you `id` as a whole big type (for everything)
+
++ (double)runProgram:(id)program;
++ (NSString *)descriptionOfProgram:(id)program;
+
+
+
+
 @end
